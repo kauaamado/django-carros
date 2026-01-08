@@ -1,0 +1,41 @@
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+*.so
+
+# Environments
+venv/
+env/
+.venv/
+bin/
+lib/
+include/
+pip-wheel-metadata/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.Python
+*.egg-info/
+var/
+
+# Django-specific
+*.log
+*.pot
+*.sql
+db.sqlite3
+/static/ # Exclude collected static files (optional, depends on deployment strategy)
+/media/  # Exclude user-uploaded media files (optional, ensure backups are in place)
+
+# Sensitive/Local Settings
+.env
+local_settings.py
+
+# IDE-specific files (e.g., VS Code, PyCharm)
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store # macOS specific
