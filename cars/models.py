@@ -15,6 +15,7 @@ class Car(models.Model):
     brand = models.ForeignKey(Brand, on_delete=models.PROTECT, related_name='car_brand')
     factory_year = models.IntegerField(blank=True, null=False)
     model_year = models.IntegerField(blank=True, null=False)
+    plate = models.CharField(max_length=10, blank=True, null=True)
     value = models.FloatField(blank=True, null=False)
 
     def __str__(self):
