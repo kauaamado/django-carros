@@ -26,8 +26,8 @@ var/
 *.pot
 *.sql
 db.sqlite3
-/static/ # Exclude collected static files (optional, depends on deployment strategy)
-/media/  # Exclude user-uploaded media files (optional, ensure backups are in place)
+/static/ 
+/media/
 
 # Sensitive/Local Settings
 .env
