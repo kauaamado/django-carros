@@ -3,7 +3,12 @@
     <head>
         <title>Meus carros</title>
     </head>
-    <body>
-        <h1>Opalas econômicos na promoção!</h1>
-    </body>
+    {% block content %}
+        <body>
+            {% for car in cars %}
+                <h3>{{ car.brand }} {{ car.model }} {{car.factory_year}}</h1>
+                <img>{{car.photo}}<img>
+            {% endfor %}
+        </body>
+    {% endblock %}
 </html>
